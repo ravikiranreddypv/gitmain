@@ -1,0 +1,53 @@
+git config --global user.name "ravi"
+git config --global user.email "   "
+git config --global push.default simple
+git init --bare
+git clone
+git add
+git commit -m "comment"
+git log
+git add .
+echo "line" > file
+git push
+gitignore
+git log -1 or any num
+git log --oneline
+git log --grep "gitig"
+git show (commit id)
+git branch (pwd)
+git branch new_branchname
+git checkout new_branch
+git checkout master
+git merge (source) (destination)
+=========================
+(before add .) stashing
+git stash
+git stash list
+git stash pop
+git stash apply stash@{number}
+git stash clear
+============================
+reverting changes ( after add .)
+head------- points to commit id where u r wrkng
+git reset --soft (head moves)
+git reset --mixed(removes frm staged area n wrkspace)
+git reset --hard (resets completely)
+============
+after commit if u want to modify smethng
+git revert (commit id)  
+git checkout <commit id>
+git checkout master <head points to latest commit id>
+git rm <file>
+git clean -n <dry run>
+git clean -f <force delete
+******** after deleting dont forget to add . and commit the deleted file*****
+
+git tag -a "taag patern" -m "comment" <commit id>
+git show <pattern>
+git tag
+git bisect start <bad> <good>
+git run ./.sh file.java
+
+
+git check
+
